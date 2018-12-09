@@ -21,27 +21,68 @@ a:focus, a:hover {
     float: left;
     margin-left: 134.5px;
 }
+#logo2 {
+    float: left;
+    margin-left: 134.5px;
+}
+#logo3 {
+    float: left;
+    margin-left: 134.5px;
+}
+#logo4 {
+    float: left;
+    margin-left: 134.5px;
+}
+#headingStuff {
+    width: 80.25%;
+    background-color: saddlebrown;
+    color: gold;
+    font-size: 20px;
+    margin-left: 134.5px;
+}
 #firstHeading {  
+    width: 80.25%;
     text-align:center;
-    background-color: lightsalmon;
-    font-size: 60.6px;
-    width: 90%;
+    background-color: #ff9967;
+    font-size: 60px;
+    margin-left: 134.5px;
+}
+header img.circle {
+    border-radius: 50%;
+    border: solid;
+    width: 20%;
+    border-width: 7px;
+    border-color: #ff9967; 
+    float: left;
+}
+#gif {
+    display: flex;
+    margin-left: 380px
+}
+#video {
+    background-color: saddlebrown;
+    display: flex;
+    margin-right: .1px;
+    float: right;
 }
 #aboutUs {  
+    width: 80.25%;
     text-align:center;
-    background-color: lightsalmon;
+    background-color: #ff9967;
     font-size: 60px;
-    width: 90%;
+    margin-left: 134.5px;
 }
 #employee {
     border: solid;
     border-color: gold;
     border-width: 9px;
+    float: left;
 }
 #people {
     border: solid;
     border-color: gold;
     border-width: 9px;
+    margin-left: 398px
 }
 #paragraph {
     width: 80.25%;
@@ -53,9 +94,19 @@ a:focus, a:hover {
 #menu {  
     width: 80.25%;
     text-align:center;
-    background-color: lightsalmon;
+    background-color: #ff9967;
     font-size: 60px;
-    width: 90%;
+    margin-left: 134.5px;
+}
+#bulls {
+    border: solid;
+    border-color: gold;
+    border-width: 9px;
+}
+#whiteCoffee {
+    border: solid;
+    border-color: gold;
+    border-width: 9px;
 }
 #menuColumn1 {
     background-color: saddlebrown;
@@ -63,6 +114,7 @@ a:focus, a:hover {
     color: gold;
     margin-left: 134.5px;
     width: 80.25%;
+    float: left;
 }
 #menuColumn2 {
     background-color: saddlebrown;
@@ -86,26 +138,45 @@ a:focus, a:hover {
     width: 80.25%;
 }
 #location {  
+    width: 80.25%;
     text-align:center;
-    background-color: lightsalmon;
+    background-color: #ff9967;
     font-size: 60px;
-    width: 90%;
+    margin-left: 134.5px;
 }
-header img.circle {
-    border-radius: 50%;
-    border: solid;
-    width: 20%;
-    border-width: 7px;
-    border-color: lightsalmon; 
-    margin-left: 134.5px
-}
-#gif {
-
-}
-#video {
-    padding-left: 3em;
+#contact{
     background-color: saddlebrown;
-    margin-left: 15p
+    font-size: 20px;
+    color: gold;
+    margin-left: 134.5px;
+    width: 80.25%;
+    float: left;
+}
+#hours {
+    background-color: saddlebrown;
+    font-size: 20px;
+    color: gold;
+    margin-left: 134.5px;
+    width: 80.25%;
+}
+/* make sure to have hours, images, GIF, video, form spree, robots and humans.txt, and favicon */
+#formHeading {
+    background-color: saddlebrown;
+    font-size: 20px;
+    color: gold;
+    margin-left: 134.5px;
+    width: 80.25%;
+}
+#form{
+    background-color: saddlebrown;
+    font-size: 20px;
+    color: gold;
+    margin-left: 134.5px;
+    width: 80.25%;
+}
+#googleMap {
+    margin-left: 134.5px;
+    background-color: saddlebrown;
 }
 /* Styles for Navigation */
 #nav_menu ul {
@@ -113,12 +184,12 @@ header img.circle {
     flex-basis: 100%;
     justify-content: space-between;
 	list-style-type: none;
-	margin: 0;
     width: 80.2%; 
+    margin-left: 134.5px;
 }
 #nav_menu ul li {
     flex-basis: 100%;
-    width: 85%;
+    width: 80.2%;
     font-size: 20px;
 }
 #nav_menu ul li a {
