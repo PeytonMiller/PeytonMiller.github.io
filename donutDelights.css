@@ -53,17 +53,18 @@ header img.circle {
     width: 20%;
     border-width: 7px;
     border-color: #ff9967; 
-    float: left;
 }
 #gif {
     display: flex;
-    margin-left: 380px
 }
 #video {
     background-color: saddlebrown;
     display: flex;
-    margin-right: .1px;
+    margin-right: 304px;
     float: right;
+    margin-top: 150px;
+    height: 300px;
+    width: 600px;
 }
 #aboutUs {  
     width: 80.25%;
@@ -82,7 +83,7 @@ header img.circle {
     border: solid;
     border-color: gold;
     border-width: 9px;
-    margin-left: 398px
+    margin-left: 843px
 }
 #paragraph {
     width: 80.25%;
